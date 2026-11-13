@@ -7,7 +7,7 @@
 window.RESEARCH = [
   {
     title: "Glymphatic imaging with DTI-ALPS",
-    image: "assets/img/research/dti-alps.svg",
+    image: "assets/img/research/dti-alps.jpg",
     summary:
       "The DTI-ALPS index estimates perivascular water diffusion — a proxy for glymphatic clearance — from standard diffusion MRI. I extend the framework to new anatomical locations (Pontine-ALPS in the brainstem, corpus callosum ROIs) and test it in Alzheimer's disease and aging using ADNI data.",
     tags: ["Diffusion MRI", "Alzheimer's disease", "ADNI"],
@@ -17,7 +17,7 @@ window.RESEARCH = [
   },
   {
     title: "Detecting and tracking traumatic brain injury",
-    image: "assets/img/research/tbi.svg",
+    image: "assets/img/research/tbi.jpg",
     summary:
       "Which diffusion metrics detect TBI, and which track recovery? Comparing regional FA/MD with DTI-ALPS across injury and follow-up, alongside a monozygotic-twin case study of how TBI reshapes bilateral brain networks for dexterous manipulation.",
     tags: ["TBI", "DTI", "fMRI", "Twins"],
