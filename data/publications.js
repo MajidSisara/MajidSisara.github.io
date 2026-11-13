@@ -85,7 +85,7 @@ window.PUBLICATIONS = [
   {
     type: "submitted", year: 2026,
     title: "The impact of different functional connectivity measures on classification of harmful brain activity using various graph neural networks",
-    authors: "Abbasi Sisara, M., & Salaway, M.",
+    authors: "Abbasi Sisara, M., & Salaway, M., & Valero-Cuevas, F. J.",
     venue: "Under review — IEEE",
     links: []
   },
