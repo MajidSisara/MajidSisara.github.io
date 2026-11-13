@@ -74,7 +74,7 @@ h3.sub { margin-top: 2.2rem; }
 .research-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 24px; }
 .rcard { background: #fff; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); display: flex; flex-direction: column; transition: transform .2s, box-shadow .2s; }
 .rcard:hover { transform: translateY(-3px); box-shadow: 0 14px 30px rgba(15,27,45,.08); }
-.rcard img { width: 100%; aspect-ratio: 5/3; object-fit: cover; display: block; background: var(--ink); cursor: zoom-in; }
+.rcard img { width: 100%; aspect-ratio: 5/3; object-fit: contain; display: block; background: #fff; cursor: zoom-in; border-bottom: 1px solid var(--line); }
 .rcard .body { padding: 18px 20px 20px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
 .rcard h3 { margin: 0; }
 .rcard p { margin: 0; font-size: .95rem; }
