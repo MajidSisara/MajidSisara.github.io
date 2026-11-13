@@ -25,7 +25,7 @@ window.RESEARCH = [
   },
   {
     title: "Brain–muscle coupling during dexterous tasks",
-    image: "assets/img/research/eeg-emg.svg",
+    image: "assets/img/research/eeg-emg.jpg",
     summary:
       "Multimodal EEG, EMG, and fMRI studies of hand and leg dexterity in people with TBI and stroke. Corticomuscular and intermuscular coherence reveal how common neural drive changes with fatigue, skill learning, and injury.",
     tags: ["EEG", "EMG", "Coherence", "Stroke"],
@@ -33,7 +33,7 @@ window.RESEARCH = [
   },
   {
     title: "Graph neural networks for harmful brain activity",
-    image: "assets/img/research/gnn.svg",
+    image: "assets/img/research/gnn.jpg",
     summary:
       "How does the choice of functional-connectivity measure change what a GNN can learn from EEG? I benchmark connectivity graphs and deep architectures (GNNs, transformers, variational RNN autoencoders) for classifying seizures and other harmful patterns.",
     tags: ["Deep learning", "EEG", "Epilepsy"],
@@ -41,7 +41,7 @@ window.RESEARCH = [
   },
   {
     title: "Sensory transmission in the primate spinal cord & brainstem",
-    image: "assets/img/research/sensory.svg",
+    image: "assets/img/research/sensory.jpg",
     summary:
       "Using recordings from non-human primates, I show that skin and muscle afferent signals are transmitted and modulated in distinct, active, and task-dependent ways before they reach somatosensory cortex.",
     tags: ["Neurophysiology", "Sensorimotor"],
