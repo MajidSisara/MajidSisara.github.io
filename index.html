@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Majid Abbasi Sisara — Computational Neuroscientist</title>
+  <meta name="description" content="Majid Abbasi Sisara, Ph.D. candidate at USC. Diffusion MRI, glymphatic imaging (DTI-ALPS), traumatic brain injury, EEG/EMG, and machine learning.">
+  <meta property="og:title" content="Majid Abbasi Sisara">
+  <meta property="og:description" content="Computational neuroscientist — diffusion MRI, TBI, EEG/EMG, machine learning.">
+  <meta property="og:image" content="assets/img/profile.png">
+  <link rel="icon" href="assets/img/profile.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#top" id="brand"></a>
+      <button class="menu-btn" aria-label="Menu" onclick="document.body.classList.toggle('menu-open')">☰</button>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#experience">Experience</a>
+        <a href="#teaching">Teaching &amp; Talks</a>
+        <a href="#contact">Contact</a>
+        <a class="cv-btn" id="cv-link" href="#" target="_blank">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="top">
+    <div class="wrap hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow" id="hero-title"></p>
+        <h1 id="hero-name"></h1>
+        <p class="affil" id="hero-affil"></p>
+        <p class="tagline" id="hero-tagline"></p>
+        <div class="social" id="hero-links"></div>
+      </div>
+      <img class="portrait" id="hero-photo" alt="Portrait of Majid Abbasi Sisara">
+    </div>
+  </section>
+
+  <main>
+    <section id="about" class="wrap section">
+      <div class="grid-2">
+        <div>
+          <h2>About</h2>
+          <div id="about-text"></div>
+          <div class="tags" id="interests"></div>
+        </div>
+        <aside>
+          <div class="card">
+            <h3>News</h3>
+            <ul class="news" id="news"></ul>
+          </div>
+          <div class="card">
+            <h3>Education</h3>
+            <ul class="edu" id="education"></ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="research" class="section tint">
+      <div class="wrap">
+        <h2>Research</h2>
+        <div class="research-grid" id="research-list"></div>
+      </div>
+    </section>
+
+    <section id="publications" class="wrap section">
+      <h2>Publications</h2>
+      <p class="muted">Full list on <a id="scholar-inline" target="_blank">Google Scholar</a>. ★ = selected.</p>
+      <div class="filters" id="pub-filters"></div>
+      <div id="pub-list"></div>
+    </section>
+
+    <section id="experience" class="section tint">
+      <div class="wrap">
+        <h2>Experience</h2>
+        <div class="timeline" id="experience-list"></div>
+        <h3 class="sub">Skills</h3>
+        <div class="skills" id="skills"></div>
+      </div>
+    </section>
+
+    <section id="teaching" class="wrap section">
+      <div class="grid-2 even">
+        <div>
+          <h2>Teaching</h2>
+          <ul class="plain" id="teaching-list"></ul>
+        </div>
+        <div>
+          <h2>Talks &amp; Workshops</h2>
+          <ul class="plain" id="talks-list"></ul>
+          <h3 class="sub">Service</h3>
+          <ul class="plain small" id="service-list"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section dark">
+      <div class="wrap contact">
+        <h2>Contact</h2>
+        <p id="contact-text"></p>
+        <div class="social" id="contact-links"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <span id="footer-name"></span> · Last updated <span id="updated"></span>
+  </footer>
+
+  <!-- Content lives in these files. Edit them to update the site. -->
+  <script src="data/profile.js"></script>
+  <script src="data/research.js"></script>
+  <script src="data/publications.js"></script>
+  <script src="data/experience.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
