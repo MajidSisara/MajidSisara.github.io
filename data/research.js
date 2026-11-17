@@ -6,11 +6,11 @@
    ===================================================================== */
 window.RESEARCH = [
   {
-    title: "Glymphatic imaging with DTI-ALPS",
+    title: "Glymphatic system evaluation with DTI-ALPS",
     image: "assets/img/research/dti-alps.jpg",
     summary:
       "The DTI-ALPS index estimates perivascular water diffusion — a proxy for glymphatic clearance — from standard diffusion MRI. I extend the framework to new anatomical locations (Pontine-ALPS in the brainstem, corpus callosum ROIs) and test it in Alzheimer's disease and aging using ADNI data.",
-    tags: ["Diffusion MRI", "Alzheimer's disease", "ADNI"],
+    tags: ["Diffusion MRI", "Alzheimer's disease", "ADNI", "Glymphatic system"],
     links: [
       { label: "G-ALPS paper", url: "https://doi.org/10.1002/alz.71118" }
     ]
@@ -20,7 +20,7 @@ window.RESEARCH = [
     image: "assets/img/research/tbi.jpg",
     summary:
       "Which diffusion metrics detect TBI, and which track recovery? Comparing regional FA/MD with DTI-ALPS across injury and follow-up, alongside a monozygotic-twin case study of how TBI reshapes bilateral brain networks for dexterous manipulation.",
-    tags: ["TBI", "DTI", "fMRI", "Twins"],
+    tags: ["TBI", "DTI", "fMRI", "rs-fMRI", "EEG"],
     links: []
   },
   {
@@ -36,7 +36,7 @@ window.RESEARCH = [
     image: "assets/img/research/gnn.jpg",
     summary:
       "How does the choice of functional-connectivity measure change what a GNN can learn from EEG? I benchmark connectivity graphs and deep architectures (GNNs, transformers, variational RNN autoencoders) for classifying seizures and other harmful patterns.",
-    tags: ["Deep learning", "EEG", "Epilepsy"],
+    tags: ["Deep learning", "EEG", "Epilepsy", "GNN", "GIN", "GAT"],
     links: []
   },
   {
@@ -44,7 +44,7 @@ window.RESEARCH = [
     image: "assets/img/research/sensory.jpg",
     summary:
       "Using recordings from non-human primates, I show that skin and muscle afferent signals are transmitted and modulated in distinct, active, and task-dependent ways before they reach somatosensory cortex.",
-    tags: ["Neurophysiology", "Sensorimotor"],
+    tags: ["Neurophysiology", "Sensorimotor", "LFP"],
     links: []
   }
 ];
