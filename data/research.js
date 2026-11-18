@@ -56,5 +56,15 @@ window.RESEARCH = [
     links: [
       { label: "EEG-fMRI 0.55T paper", url: "https://arxiv.org/abs/2602.13489" }
     ]
+  },
+    {
+    title: "Neural signatures of future thinking after a suicide attempt",
+    image: "assets/img/research/suicide-imagination-fmri.png",
+    summary:
+      "Task-fMRI study of how recent suicide attempters with MDD imagine positive and negative futures, compared with MDD patients and healthy controls (n = 62). During negative imagination, attempters show heightened orbitofrontal, insula, cingulate and inferior frontal activity and reduced parahippocampal engagement, which points to more threat sensitivity and weaker access to episodic memory when planning for the future.",
+    tags: ["Major depressive disorder (MDD)", "Suicide", "Future imagination",, "fMRI" ],
+    links: [
+      { label: "Depression-Suicide paper", url: "https://doi.org/10.1016/j.pscychresns.2025.112049" }
+    ]
   }
 ];
