@@ -46,5 +46,15 @@ window.RESEARCH = [
       "Using recordings from non-human primates, I show that skin and muscle afferent signals are transmitted and modulated in distinct, active, and task-dependent ways before they reach somatosensory cortex.",
     tags: ["Neurophysiology", "Sensorimotor", "LFP"],
     links: []
+  },
+   {
+    title: "Simultaneous EEG-fMRI at Ultra-Low Field (0.55T)",
+    image: "assets/img/research/EEG-fMRI-0.55T.png",
+    summary:
+      "Exploring simultaneous EEG-fMRI at 0.55T, with a focus on artifact reduction, signal denoising, and EEG-informed functional brain mapping.",
+    tags: ["Brain Mapping", "Signal Processing", "Neuroimaging", "Low-Field MRI", "EEG-fMRI"],
+    links: [
+      { label: "EEG-fMRI 0.55T paper", url: "https://arxiv.org/abs/2602.13489" }
+    ]
   }
 ];
