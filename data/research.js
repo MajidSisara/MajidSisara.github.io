@@ -66,5 +66,15 @@ window.RESEARCH = [
     links: [
       { label: "Depression-Suicide paper", url: "https://doi.org/10.1016/j.pscychresns.2025.112049" }
     ]
+  },
+   {
+    title: "Temperament traits and the neural cost of choice",
+    image: "assets/img/research/temperament-choice-fmri.png",
+    summary:
+      "How do Cloninger's temperament traits (Novelty Seeking, Harm Avoidance, Reward Dependence, Persistence) shape the conflict we feel when choosing? Using a modified free-choice paradigm with fMRI, I compare people with the highest and lowest score on each trait during easy and difficult decisions. Each trait shows its own activation pattern, mostly centered on the cingulate cortex.",
+    tags: ["fMRI", "Decision-making", "Personality", "Temperament (TCI)", "Cognitive conflict", "Free-choice paradigm"],
+    links: [
+      { label: "Temperament-fMRI preprint", url: "https://doi.org/10.1101/2024.11.26.625354" }
+    ]
   }
 ];
