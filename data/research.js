@@ -15,6 +15,14 @@ window.RESEARCH = [
       { label: "G-ALPS paper", url: "https://doi.org/10.1002/alz.71118" }
     ]
   },
+    {
+    title: "Hybrid EEG brain–computer interface for wheelchair control",
+    image: "assets/img/research/eeg-bci-wheelchair.png",
+    summary:
+      "My M.Sc. thesis: an EEG-based BCI that lets a user drive an electric wheelchair with brain signals alone. Steady-state visual evoked potentials (SSVEP) handle start/stop and speed, and left- vs. right-hand motor imagery (the two most separable of three imagery classes) steers. The decoded commands feed a fuzzy-logic controller that sets the speed of each rear motor.",
+    tags: ["BCI", "EEG", "SSVEP", "Motor imagery", "Fuzzy control", "Assistive technology"],
+    links: []
+  }
   {
     title: "Detecting and tracking traumatic brain injury",
     image: "assets/img/research/tbi.jpg",
