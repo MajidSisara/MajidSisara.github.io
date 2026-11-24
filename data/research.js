@@ -79,7 +79,7 @@ window.RESEARCH = [
     title: "Resting-state connectivity signatures of MCI and Alzheimer's disease",
     featured: "wide",
     aspect: "2.1/1",
-    image: "assets/img/research/jmri-card-preview-fig2.jpg",
+    image: "assets/img/research/jmri-card-preview-fig2.png",
     summary:
       "Can resting-state fMRI tell normal aging, amnestic MCI, and late-onset Alzheimer's disease apart? In 43 older adults (14 normal, 16 aMCI, 13 AD), we combined ROI-to-ROI functional connectivity with graph-theory metrics. Alzheimer's disease showed weaker connectivity across the default mode, salience, dorsal attention, frontoparietal, language, visual, and cerebellar networks, along with lower global and local efficiency and betweenness centrality. Amnestic MCI, by contrast, showed <i>increased</i> visual and language-network connectivity and higher local efficiency and clustering than normal controls.",
     tags: ["rs-fMRI", "Functional connectivity", "Graph theory", "Alzheimer's disease", "MCI", "CONN"],
