@@ -6,11 +6,11 @@
    ===================================================================== */
 window.RESEARCH = [
   {
-    title: "Glymphatic system evaluation with DTI-ALPS",
-    image: "assets/img/research/dti-alps.jpg",
+    title: "G-ALPS: a better diffusion-MRI marker of glymphatic function",
+    image: "assets/img/research/galps-journal.jpg",
     summary:
-      "The DTI-ALPS index estimates perivascular water diffusion — a proxy for glymphatic clearance — from standard diffusion MRI. I extend the framework to new anatomical locations (Pontine-ALPS in the brainstem, corpus callosum ROIs) and test it in Alzheimer's disease and aging using ADNI data.",
-    tags: ["Diffusion MRI", "Alzheimer's disease", "ADNI", "Glymphatic system"],
+      "The glymphatic system clears waste from the brain, and its failure is linked to Alzheimer's disease. Using genetic programming on 217 DTI scans, we derived <b>G-ALPS</b>, an optimized version of the DTI-ALPS index. Compared with classic ALPS, G-ALPS correlates more strongly with cognition (MMSE, CDR, FAQ) in ADNI, is 81–105% more sensitive to aging effects in AD, MCI, and healthy older adults, and tracks sleep quality in the Human Connectome Project. I am now extending the ALPS framework to the brainstem (Pontine-ALPS) and the corpus callosum.",
+    tags: ["Diffusion MRI", "Glymphatic system", "Alzheimer's disease", "ADNI", "HCP", "Genetic programming"],
     links: [
       { label: "G-ALPS paper", url: "https://doi.org/10.1002/alz.71118" }
     ]
