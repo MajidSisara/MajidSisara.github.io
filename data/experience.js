@@ -22,7 +22,7 @@ window.EXPERIENCE = [
       "Multimodal EEG, EMG, and fMRI studies of hand and leg dexterity in TBI, stroke, and healthy participants.",
       "Analysis of DTI, resting-state and task fMRI, and resting EEG in traumatic brain injury.",
       "Built four deep-learning models (variational RNN autoencoders, transformers, GNNs, MLP mappers) for harmful brain activity classification.",
-      "Mentored 7 graduate and 4 undergraduate interns; contributed to 4 NIH/NSF proposals (R01, R21)."
+      "LFP and ECoG data analysis"
     ]
   },
   {
@@ -47,7 +47,7 @@ window.EXPERIENCE = [
     org: "Institute for Research in Fundamental Sciences (IPM) — School of Cognitive Sciences",
     place: "Tehran, Iran",
     dates: "Jun 2019 – Sep 2019",
-    points: ["Non-human primate recordings with a 10×10 Utah array in PFC; spike sorting (Dr. Ali Ghazizadeh)."]
+    points: ["Non-human primate ECoG recordings with a 10×10 Utah array in PFC; spike sorting (Dr. Ali Ghazizadeh)."]
   },
   {
     role: "Data Scientist",
